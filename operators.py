@@ -11,7 +11,7 @@ class Operation(ABC):#абстрактный базовый класс для м
         pass
 
 
-class Addition(Operation):#Выполните сложение действительных и мнимых частей по отдельности
+class Addition(Operation):#сложение действительных и мнимых частей по отдельности
     def operate(self, num1, num2):
         real_sum = num1.real + num2.real
         imag_sum = num1.imag + num2.imag
